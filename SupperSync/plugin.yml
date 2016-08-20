@@ -1,0 +1,7 @@
+name: SupperSync
+version: "1.2.2"
+api: 1.10.0
+author: chs
+description: Update your server player data to WordPress!
+main: WebLogin\Main
+commands:
