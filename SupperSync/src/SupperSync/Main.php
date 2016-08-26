@@ -231,7 +231,7 @@ class Main extends PluginBase implements Listener{
 		    $z = $player->getZ();
 			$spawn = $this->getServer()->getLevelByName($world)->getSpawn();			
 			$event->setRespawnPosition($spawn);
-			$this->getServer()->getLogger()->info(TextFormat::YELLOW."$user ".TextFormat::BLUE."卡虚空修复完成");	
+			$this->getServer()->getLogger()->info(TextFormat::YELLOW."$user ".TextFormat::BLUE."卡虚s修复完成");	
 		    unset($x,$z,$spawn);
 		}
 		unset($player,$world,$user,$y);
